@@ -1,0 +1,22 @@
+{
+  "name": "freenode",
+  "version": "1.0.0",
+  "description": "Freenode IRC Plugin",
+  "main": "index.js",
+  "author": "Dmitry Petrov <dpetroff@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "http://webchat.freenode.net/",
+    "serviceName": "Freenode IRC",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "hasIndirectMessages": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
